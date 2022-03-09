@@ -5,11 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- Remember to link to your CSS file! -->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+        <!--Icon Style-->
+    <script src="https://kit.fontawesome.com/8410a4765f.js" crossorigin="anonymous"></script>
+        <!--NavBar Style-->
+    <style type="text/css">
+        #contact{
+            background-color: blue;
+        }
+        #closed{
+            background-color:aquamarine;
+        }
+    </style>
 </head>
 <body>
     <!-- CONTACT PAGE -->
     <!-- TODO: Navbar here -->
+    <nav>
+        <ul>
+            <li id="homepage">
+                <a href="./index.html">Homepage</a></li>
+            <li id="menu">
+                <a href="./menu.html">Menu</a></li>
+            <li id="about">
+                <a href="./about.html">About</a></li>
+            <li id="contact">
+                <a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
     <!-- TODO: Banner Image here-->
+    <div>
+        <h3 id="closed">H-Thai-ML Restaurants will be closed Monday, March 14th for painting. </h3>
+    </div>
+    <img id="banner"
+            alt="Banner logo"
+            src="./assets/images/banner.png">
     <main>
         <h2>Hours of Operation</h2>
         <p>
@@ -20,8 +50,18 @@
         </p>
         <h2>Contact Info</h2>
         <p>
-            <strong>Phone Number:</strong> TBD
+            <!--phone icon-->
+            <i class="fa-solid fa-phone"> </i><strong>Phone Number: (757)555-5555</strong> <br>
+            <!--envelope icon-->
+            <i class="fa-regular fa-envelope"> </i>customerservice@food.com<br>
+            <!--map icon-->
+            <i class="fa-solid fa-map-location"> </i>2022 Virginia Beach Blvd<br>
+            Virginia Beach VA
+        </address>
         </p>
     </main>
+    <footer>
+        <p><strong>Eat Authentic!</strong></p>
+    </footer>
 </body>
 </html>

@@ -5,54 +5,173 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- Remember to link to your CSS file! -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!--Icon Style-->
+    <script src="https://kit.fontawesome.com/8410a4765f.js" crossorigin="anonymous"></script>
+        <!--NavBar Style-->
+    <style type="text/css">
+        #menu{
+            background-color: blue;
+        }
+        #closed{
+            background-color:aquamarine;
+        }
+        </style>
 </head>
 <body>
     <!-- MENU PAGE -->
     <!-- TODO: Navbar here -->
+    <nav>
+        <ul>
+            <li id="homepage">
+                <a href="./index.html">Homepage</a></li>
+            <li id="menu">
+                <a href="./menu.html">Menu</a></li>
+            <li id="about">
+                <a href="./about.html">About</a></li>
+            <li id="contact">
+                <a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
     <!-- TODO: Banner Image here-->
+    <div>
+        <h3 id="closed">H-Thai-ML Restaurants will be closed Monday, March 14th for painting. </h3>
+    </div>
+    <img id="banner"
+            alt="Banner logo"
+            src="./assets/images/banner.png">
     <main>
+        <h1>Our Menu</h1>
         <!-- Your job is to make the menu items in each section below a proper table! -->
-        Appetizers
-
-        Name Price
-        Chicken Satay $7.95
-        Fresh Rolls $6.95
-        
-        Lunch
-
-        Name Price
-        Panang Curry $9.95
-        Red Curry $9.95
-        Yellow Curry $8.95
-        Tom Ka Soup $8.95
-        Tom Yum Soup $8.95
-
-        Dinner
-
-        Name Price
-        Pad Thai $10.95
-        Pad See Ew $10.49
-        Rad Nah $10.49
-
-        Dessert
-
-        Name Price
-        Black Sticky Rice Pudding $3.99
-        Mango Sticky Rice $5.99
-
-        Beverages
-
-        Name Price
-        Thai Iced Coffee $3.49
-        Thai Iced Tea $3.49
-        Unsweetened Iced Tea $2.49
-
-        Side Orders
-        
-        Name Price
-        Jasmine rice $1.99
-        Brown rice $2.49
-        Cucumber Salad $2.99        
+            <h2>Appetizers</h2>
+                <table>
+                    <thead>
+                    <th>Name</th>
+                    <th>Price</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Chicken Satay<t/d>
+                            <td>$7.95</td>   
+                        </tr>
+                        <tr>
+                            <td>Fresh Rolls</td>
+                            <td>$6.95</td>
+                        </tr>        
+                    </tbody>
+                </table>
+            <h2>Lunch</h2>
+            <table>
+                <thead>
+                <th>Name</th>
+                <th>Price</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><i class="fa-solid fa-fire"></i>Panang Curry<t/d>
+                        <td>$9.95</td>   
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-fire"></i>Red Curry</td>
+                        <td>$9.95</td>
+                    </tr>    
+                    <tr>
+                        <td><i class="fa-solid fa-asterisk"></i>Yellow Curry<t/d>
+                        <td>$8.95</td>   
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-asterisk"></i>Tom Ka Soup</td>
+                        <td>$8.95</td>
+                    </tr>      
+                    <tr>
+                        <td>Tom Yum Soup</td>
+                        <td>$8.95</td>
+                    </tr>  
+                </tbody>
+            </table>
+            <h2>Dinner</h2>
+            <table>
+                <thead>
+                <th>Name</th>
+                <th>Price</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><i class="fa-solid fa-asterisk"></i>Pad Thai<t/d>
+                        <td>$10.95</td>   
+                    </tr>
+                    <tr>
+                        <td>Pad See Ew</td>
+                        <td>$10.49</td>
+                    </tr>    
+                    <tr>
+                        <td><i class="fa-solid fa-fire"></i>Rad Nah<t/d>
+                        <td>$10.49</td>   
+                    </tr>
+                </tbody>
+            </table>
+            <h2>Dessert</h2>
+            <table>
+                <thead>
+                <th>Name</th>
+                <th>Price</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Black Sticky Rice Pudding<t/d>
+                        <td>$3.99</td>   
+                    </tr>
+                    <tr>
+                        <td>Mango Sticky Rice</td>
+                        <td>$5.99</td>
+                    </tr>    
+                </tbody>
+            </table>
+            <h2>Beverages</h2>
+            <table>
+                <thead>
+                <th>Name</th>
+                <th>Price</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Thai Iced Coffee<t/d>
+                        <td>$3.49</td>   
+                    </tr>
+                    <tr>
+                        <td>Thai Iced Tea</td>
+                        <td>$3.49</td>
+                    </tr>    
+                    <tr>
+                        <td>Unsweetened Iced Tea<t/d>
+                        <td>$2.49</td>   
+                    </tr>
+                </tbody>
+            </table>
+            <h2>Side Orders</h2>
+            <table>
+                <thead>
+                <th>Name</th>
+                <th>Price</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jasmine Rice<t/d>
+                        <td>$1.99</td>   
+                    </tr>
+                    <tr>
+                        <td>Brown Rice Ew</td>
+                        <td>$2.49</td>
+                    </tr>    
+                    <tr>
+                        <td>Cucumber Salad<t/d>
+                        <td>$2.99</td>   
+                    </tr>
+                </tbody>
+            </table>   
     </main>
+    <footer>
+        <p><strong>Eat Authentic!</strong></p>
+    </footer>
 </body>
 </html>
